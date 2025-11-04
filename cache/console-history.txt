@@ -1,0 +1,5 @@
+.exit
+await c.owner()
+await c.nextId()
+await c.tokenURI(1)
+const c = await ethers.getContractAt('DidLabBadge', '0xda7232865Ec2cDd1105400CcfD1b05E78eCA4291');
